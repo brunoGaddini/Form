@@ -1,0 +1,17 @@
+## https://www.youtube.com/watch?v=-vrXnewHrwA&t=405s (Aula 01)
+## https://www.youtube.com/watch?v=V4nCkSKajZU&t=126s (Aula 03) ## Criando o bando de dados sqlite3
+
+C:\Users\Bruno>cd Desktop\Projetos\Formulario
+
+C:\Users\Bruno\Desktop\Projetos\Formulario> cd venv\Scripts
+
+C:\Users\Bruno\Desktop\Projetos\Formulario\venv\Scripts>activate
+
+(venv) C:\Users\Bruno\Desktop\Projetos\Formulario\venv\Scripts>
+
+(venv) C:\Users\Bruno\Desktop\Projetos\Formulario>python manage.py runserver
+
+(venv) C:\Users\Bruno\Desktop\Projetos\Formulario>python manage.py makemigrations
+
+(venv) C:\Users\Bruno\Desktop\Projetos\Formulario>python manage.py migrate ## Cria o banco de dados
+
