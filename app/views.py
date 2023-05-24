@@ -24,22 +24,6 @@ def form(request):
     return render(request, 'form.html', data)
 
 def create(request):
-    """
-    Creates a new Car object based on the data provided by the form.
-
-    Args:
-        request (HttpRequest): The HttpRequest object containing the request data.
-
-    Returns:
-        HttpResponseRedirect: Redirects to the home page after saving the Car object.
-
-    Example:
-        In the following example, a valid form is submitted and the data is saved,
-        redirecting the user to the home page.
-
-        ### create(request)
-        HttpResponseRedirect('/home')
-    """
     form = CarrosForm(request.POST or None)
     if form.is_valid():
         form.save()
